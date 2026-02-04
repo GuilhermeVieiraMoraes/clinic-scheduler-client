@@ -1,0 +1,20 @@
+.navbar{
+    position: fixed;
+    top:0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    gap:30%;
+    border-bottom: 1px solid hsl(210, 20%, 94%);
+    background: #f9fafb;
+}
+.navbar_btn_list{
+    display: flex;
+    list-style: none;
+    gap:.5rem;
+}
+
+.navbar_btn_list a{
+    text-decoration: none;
+}

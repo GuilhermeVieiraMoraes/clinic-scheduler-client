@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background: #f9fafb;
+}
+
+main{
+    margin-top: 3.4em;
+    height: 100vh; a
+}
