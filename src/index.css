@@ -6,6 +6,9 @@
     --bg-dark: #e0e6eb;
 
     --accent:#50957e;
+    --accent-dark: hsl(160, 30%, 10%);
+
+    --gradient: color-mix(in oklab, hsl(160, 30%, 45%) 40%, transparent);
 }
 
 *{

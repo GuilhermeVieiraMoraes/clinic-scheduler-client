@@ -1,9 +1,42 @@
+.login_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img_container{
+    min-width: 500px;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.img_container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--gradient), var(--accent-dark));
+}
+
+.img_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .login_card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 100%;
+    min-width: 50%;
+    background-size: cover;
 }
 
 .user_type{
@@ -21,7 +54,7 @@
 .login_form{
     display: flex;
     flex-direction: column;
-    width: 40%; 
+    width: 60%; 
     gap:1rem;
 }
 
@@ -39,7 +72,7 @@
 }
 
 .login_form input:focus{
-    border: 1px solid var(--accent);
+    border: 2px solid var(--accent);
 }
 
 .login_form button{
@@ -50,4 +83,13 @@
     color: white;
     padding: .75rem 0rem;
     border-radius: 0.75rem;
+}
+
+@media(max-width:1025px){
+    .img_container{
+        display: none;
+    }
+    .login_card{
+        width: 100%;
+    }
 }
