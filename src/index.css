@@ -1,3 +1,10 @@
+:root{
+    --bg-light:#f9fafb;
+    --bg-dark: #e0e6eb;
+
+    --accent:#50957e;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +12,7 @@
 
 body{
     overflow-x: hidden;
-    background: #f9fafb;
+    background: var(--bg-light);
 }
 
 main{

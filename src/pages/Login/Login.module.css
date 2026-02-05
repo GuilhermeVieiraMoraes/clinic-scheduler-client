@@ -1,0 +1,53 @@
+.login_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.user_type{
+    background: var(--bg-dark);
+    padding: .25rem .75rem;
+}
+
+.user_type button{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0.25rem 2rem;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    gap:1rem;
+}
+
+.login_form label{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.login_form input{
+    border: 2px solid var(--bg-dark);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.login_form input:focus{
+    border: 1px solid var(--accent);
+}
+
+.login_form button{
+    cursor: pointer;
+    background: var(--accent);
+    outline: none;
+    border: none;
+    color: white;
+    padding: .75rem 0rem;
+    border-radius: 0.75rem;
+}

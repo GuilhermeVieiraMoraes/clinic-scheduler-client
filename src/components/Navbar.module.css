@@ -6,8 +6,8 @@
     justify-content: space-around;
     padding: 1rem 0rem;
     gap:30%;
-    border-bottom: 1px solid hsl(210, 20%, 94%);
-    background: #f9fafb;
+    border-bottom: 1px solid var(--bg-dark);
+    background: var(--bg-light);
 }
 .navbar_btn_list{
     display: flex;
